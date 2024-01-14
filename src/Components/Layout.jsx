@@ -13,7 +13,7 @@ const Layout = () => {
   const handleResult = () =>{
   try{
   // eslint-disable-next-line no-eval
-  setnumber(eval(number).toString())
+  setnumber(eval(number).toString())    
   }catch(error){
     setnumber("error")
   }
@@ -25,7 +25,7 @@ const Layout = () => {
         
   return (
     <>
-    <div className="w-screen min-h-screen bg-gray-600">
+    <div className="w-screen min-h-screen bg-black-600 ">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white">
         <div class="font-mono  text-3xl border h-90 w-90 border-slate-100 bg-red-100">
           <div className="bg-sky-700 h-20  ">
